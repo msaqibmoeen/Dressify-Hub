@@ -1,4 +1,4 @@
-## Dressify Hub — Flutter E‑Commerce Frontend Demo
+## Dressify Hub | Flutter E‑Commerce App
 Dressify Hub is a responsive e‑commerce frontend-only app built with Flutter (Dart), converted from an HTML/CSS/JS store design into a proper multi‑screen mobile app experience. It focuses on UI/UX, navigation, and core shopping flow without authentication or backend.
 
 ## Main Features
