@@ -1,16 +1,22 @@
-# dressifyhub
+## Dressify Hub — Flutter E‑Commerce Frontend Demo
+Dressify Hub is a responsive e‑commerce frontend-only app built with Flutter (Dart), converted from an HTML/CSS/JS store design into a proper multi‑screen mobile app experience. It focuses on UI/UX, navigation, and core shopping flow without authentication or backend.
 
-A new Flutter project.
+## Main Features
+Home: announcement bar, hero carousel, categories, best deals (demo)
+Categories: responsive category grid → opens filtered products
+Products: responsive grid with category filter, sorting, max price filter
+Product Details: full info + add to cart + wishlist toggle
+Search: real-time search results
+Wishlist: view/remove saved items
+Cart: quantity update, remove/clear items, subtotal + delivery fee (demo) + total
+Checkout (UI Demo): address form validation + payment method selection (COD / Card Demo)
+Order Success + Orders (UI Demo): place order, view orders list (session-based)
+Data & Storage
+Products come from a static list (lib/data/products.dart)
+Cart + Wishlist persist offline using SharedPreferences
+Orders are UI demo (in-memory, reset after restart)
+Responsiveness
+Works across mobile, tablet, and desktop/web using adaptive grids and max-width layout.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+Flutter, Dart, Provider, SharedPreferences, intl.
