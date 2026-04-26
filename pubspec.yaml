@@ -1,0 +1,74 @@
+name: dressifyhub
+description: "Dressify Hub - Flutter Android app (converted from HTML/CSS/JS)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  flutter_styled_toast: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/baby.png
+    - assets/images/bag.png
+    - assets/images/banner 1.png
+    - assets/images/banner 2.png
+    - assets/images/banner 3.png
+    - assets/images/banner 4.jpg
+    - assets/images/beauty.png
+    - assets/images/belt.png
+    - assets/images/blocks.jpeg
+    - assets/images/eyeshade.jpg
+    - assets/images/female.png
+    - assets/images/jewelery.png
+    - assets/images/kids.png
+    - assets/images/lipstick.jpeg
+    - assets/images/logo.png
+    - assets/images/maskara.jpg
+    - assets/images/men.png
+    - assets/images/mobile.png
+    - assets/images/Shirt.png
+    - assets/images/shoes.png
+    - assets/images/smart watch.png
+    - assets/images/Stylish Ankle Boots.png
+    - assets/images/toys.png
+    - assets/images/update.png
+    - assets/images/watch.png
+
+  # Optional: if you want same fonts as website (Playfair + Poppins)
+  # Add font files in assets/fonts/ then uncomment below.
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
+  #
+  #   - family: PlayfairDisplay
+  #     fonts:
+  #       - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+  #       - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/PlayfairDisplay-Black.ttf
+  #         weight: 900

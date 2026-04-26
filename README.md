@@ -1,2 +1,16 @@
-# Dressify-Hub
-Dressify Hub is a modern e-commerce demo app built with Flutter. It features a responsive UI for mobile, tablet and web, including product browsing by categories, advanced search, wishlist and cart management. A complete checkout flow with address form and payment method (demo) is included.
+# dressifyhub
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
